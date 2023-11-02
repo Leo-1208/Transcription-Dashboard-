@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-----------------------------------Nav------------------------------------>        
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                <div class="primary">Abc</div>
+                <div>Firm</div>
+            </h2>
+            <div class="search-bar">
+                <input type="search" placeholder="🔍  Search here...">
+            </div>
+            <div class="photo">
+                <button class="notification-btn">
+                    <span class="material-symbols-sharp">notifications</span>
+                </button>
+                <div class="profile-photo"> <img src="./css/media/profile.jpg"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------------------Body----------------------------------------->
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>abc firm</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">
+                        Home
+                        </span>
+                    <h3>Home</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        folder
+                        </span>
+                    <h3>Files</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        label
+                        </span>
+                    <h3>Saved</h3>
+                    <div class="save-count">26</div>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        share
+                        </span>
+                    <h3>Integrations</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        delete
+                        </span>
+                    <h3>Trash</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        Settings
+                        </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        help
+                        </span>
+                    <h3>Help & Support</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ----------------------End of Aside---------------------- -->
+
+        <main>
+            <div class="top-part">
+                <div class="headings">
+                    <h1>Welcome Shreyash !</h1>
+                    <h2 style="margin-top: 1rem;">Upload your audio & video to convert to text</h2>
+                </div>
+                <div class="trans-btn">
+                   <button class="transcribe-btn">Transcribe</button>
+            </div>
+        </div>
+            <div class="insights">
+
+                <div class="uploads">
+                    <span class="material-symbols-sharp">
+                        folder
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h1 style="margin-top: 1rem">100</h1>
+                        </div>
+
+                    </div>
+                    <small class="text-muted">Uploaded Files</small>
+                </div>
+
+                <div class="uploads">
+                    <span class="material-symbols-sharp">
+                        menu_book
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h1 style="margin-top: 1rem">50</h1>
+                        </div>
+
+                    </div>
+                    <small class="text-muted">Transcribed</small>
+                </div>
+
+                <div class="uploads">
+                    <span class="material-symbols-sharp">
+                        label
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h1 style="margin-top: 1rem">20</h1>
+                        </div>
+
+                    </div>
+                    <small class="text-muted">Saved</small>
+                </div>
+                <!-- -------------------------End of uploads-------------------------- -->
+            </div>
+<!-- -------------------------------Recent Files--------------------------- -->
+            <div class="recent-files">
+                <h2>Recent Files</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Type
+                            </th>
+                            <th>
+                                Duration
+                            </th>
+                            <th>
+                                Date Created
+                            </th>
+                            <th>
+                                Last Updated
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="recentFilesTableBody">
+                        <tr>
+                            <td>
+                                008. Prerequisites
+                            </td>
+                            <td>
+                                .mp4
+                            </td>
+                            <td>
+                                8:47
+                            </td>
+                            <td>
+                                1/9/2023
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Peng_Meeting
+                            </td>
+                            <td>
+                                .m4a
+                            </td>
+                            <td>
+                                24:07
+                            </td>
+                            <td>
+                                3/10/2023
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                vid_CollegeSpeech
+                            </td>
+                            <td>
+                                .mp4
+                            </td>
+                            <td>
+                                12.02
+                            </td>
+                            <td>
+                                12/10/2023
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                109. Display Flex
+                            </td>
+                            <td>
+                                .mp4
+                            </td>
+                            <td>
+                                7.34
+                            </td>
+                            <td>
+                                29/10/2023
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                JEE_mentorship
+                            </td>
+                            <td>
+                                .wav
+                            </td>
+                            <td>
+                                31.39
+                            </td>
+                            <td>
+                                30/10/23
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                your_name(Jap)
+                            </td>
+                            <td>
+                                .mp4
+                            </td>
+                            <td>
+                                57.00
+                            </td>
+                            <td>
+                                02/11/23
+                            </td>
+                            <td class="warning">
+                                Pending
+                            </td>
+                            <td class="primary">
+                                Details
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+<!-- -------------------------End of Main Widgets/Middle part------------------------------- -->
+
+    </div>
+<!--------------------------------------------POP-UP---------------------------------------->
+
+
+<!-- The Modal -->
+<div class="modal" id="filePopup">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-btn">&times;</span>
+            <h2>Transcribe File</h2>
+        </div>
+        <div class="modal-body">
+            <div class="transcribe-options">
+                <label for="language">Transcription Language</label>
+                <br>
+                <select id="language">
+                    <option value="en-US">English (Default)</option>
+                    <option value="hi-IN">Hindi</option>
+                    <option value="fr-FR">French</option>
+                    <option value="ja-JP">Japanese</option>
+                    <option value="bn-IN">Bengali</option>
+                    <option value="ko-KR">Korean</option>
+                    <option value="zh-CN">Mandarin (Simplified)</option>
+                </select>
+            </div>
+
+            <div class="file-upload" onclick="triggerFileUpload()">
+                <div class="upload-icon">
+                    <!-- You can use an actual image here for the icon -->
+                    📂 
+                </div>
+                <p id="uploadPrompt">Click to upload or drag and drop</p>
+                <span id="selectedFileName" style="display:none;"></span>
+                <small>The maximum file size is 1GB for audio and 10GB for videos.<br>
+                Supported formats: mp3, m4a, wav, mp4, etc.</small>
+            </div>
+            <input type="file" id="fileInput" style="display: none;" accept=".mp3, .m4a, .wav, .mp4" onchange="validateFile()">
+            
+            
+            <div class="import-link">
+                <label for="import-url"><b>Import from Link</b></label>
+                
+                <input type="text" id="import-url" placeholder="Paste a Dropbox, Google Drive or Youtube URL here.">
+            </div>
+            <div class="speaker-identification">
+                <input type="checkbox">
+                <label for="speaker-identification"><b>Speaker identification</b></label>
+            </div>
+            <button class="final-btn" id="transcribeButton">Transcribe File</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
