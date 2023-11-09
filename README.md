@@ -1,4 +1,4 @@
-# Transcription Interface
+# Transcription Dashboard 
 
 Welcome to the **Transcription Interface** repository. This dashboard has been specifically designed for ABC firm that excels in developing Speech-to-Text software solutions. The user-friendly interface ensures a hassle-free experience for converting your video and audio files into text format.
 
